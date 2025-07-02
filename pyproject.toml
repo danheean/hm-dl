@@ -1,0 +1,18 @@
+[project]
+name = "hm-dl"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "keras==3.5.0",
+    "matplotlib==3.8.0",
+    "numpy==1.26.4",
+    "scikit-learn==1.6.0",
+    "tensorflow==2.17.1",
+    "torch==2.5.1",
+    "torchaudio>=2.5.1",
+    "torchvision>=0.20.1",
+    "transformers==4.47.1",
+]
