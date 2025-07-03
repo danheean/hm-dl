@@ -12,6 +12,7 @@ TensorFlow와 Keras를 활용해 다양한 딥러닝 모델을 구현하고 실�
 - **Python** 3.10.16
 - **TensorFlow** 2.17.1
 - **Keras** 3.5.0
+- **TensorFlow Metal** 1.1.0+ (Mac Silicon GPU 가속)
 - **NumPy** - 수치 연산
 - **Jupyter Notebook** - 실습 환경
 
@@ -38,6 +39,11 @@ cd hm-dl
 # 가상환경 및 의존성 설치 (uv 사용)
 uv sync
 ```
+
+**Mac Silicon 사용자:**
+
+- `tensorflow-metal`이 자동으로 설치되어 GPU 가속을 사용할 수 있습니다
+- M1/M2/M3 칩의 Neural Engine을 활용한 딥러닝 가속화 지원
 
 ### 2. 설치 확인
 
@@ -79,7 +85,8 @@ python main.py
 - [x] Keras 3.5.0 설치 완료
 - [x] 기본 연산 테스트 통과
 - [x] 모델 생성/컴파일 테스트 통과
-- [ ] GPU 설정 (필요시)
+- [ ] tensorflow-metal 설치 (Mac Silicon GPU 가속)
+- [ ] Metal GPU 메모리 설정
 
 ### 학습 진도
 
