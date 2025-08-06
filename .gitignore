@@ -12,3 +12,6 @@ wheels/
 # Data
 data/
 models/
+
+ch03/effici*
+ch03/hf_cache*
