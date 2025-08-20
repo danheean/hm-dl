@@ -15,3 +15,7 @@ models/
 
 ch03/effici*
 ch03/hf_cache*
+ch04/bert_kor*
+ch04/roberta_*
+
+.env
